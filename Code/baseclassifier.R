@@ -1,5 +1,5 @@
 ###############Import Data
-Class = read.csv("D_class.csv", header = TRUE)
+Class = read.csv("Dataset_alpha.csv", header = TRUE)
 Cdes = read.csv("Descriptor.csv", header = TRUE)
 k = 10
 cctrl <-trainControl(method = "cv", number = 5, classProbs =  TRUE)
